@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+  @apply bg-green-300;
+  height: theme(spacing[3.5]);
+}
+
+@media screen(lg) {
+  body {
+    @apply bg-pink-500;
+  }
+}
